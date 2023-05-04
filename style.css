@@ -1,0 +1,383 @@
+/* Global Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header Styles video*/
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Header Styles*/
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .hero-video {
+    position: relative;
+    z-index: 1;
+  }
+  
+  header {
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  z-index: 1;
+}
+
+header {
+	background-color: #000000;
+	background-position: center center;
+	background-size: cover;
+	height: 500px;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f1c40f;
+}
+
+/* Hero Section Styles */
+.hero-container {
+    border: 2px solid #000000;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .hero-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-container button {
+    background-color: #f04e23;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-container button:hover {
+    background-color: #d33a0d;
+    cursor: pointer;
+  }
+  
+
+.hero-section {
+	background-color:#000000 ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 20px;
+	text-align: center;
+    border: 2px solid rgb(15, 15, 15);
+    padding: 20px;
+}
+
+.hero-section h1 {
+	font-size: 3rem;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.hero-section p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.hero-section button {
+	background-color: white;
+	color: #ff6f00;
+	font-size: 1.2rem;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 15px 40px;
+	border: none;
+	border-radius: 50px;
+}
+
+.hero-section button:hover {
+	background-color: #f7f7f7;
+	color: #ff6f00;
+}
+
+
+/* Menu Section Styles */
+
+.menu-section {
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.menu-section h2 {
+	font-size: 3rem;
+	margin-bottom: 40px;
+}
+
+.menu-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.menu-item {
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+}
+
+.menu-item img {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.menu-item h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.menu-item p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+.menu-item span {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* Reservation Section Styles */
+
+.reservation-section {
+	background-color: #e4990e;
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.reservation-section h2 {
+	font-size: 3rem;
+	margin-bottom: 40px;
+	color: #333;
+}
+
+.reservation-section form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.reservation-section label {
+	font-size: 1.2rem;
+	color: #333;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.reservation-section input {
+	padding: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+
+.reservation-section button {
+	background-color: #ff6f00;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 15px 40px;
+	border: none;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+
+.reservation-section button:hover {
+	background-color: #f57c00;
+}
+
+/* about us */
+.about-section {
+    background-color: #000000;
+    background-image: url(path-to-your-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; /* set the position to relative */
+    z-index: 1; /* set the z-index to 1 */
+  }
+  
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+    position: relative; /* set the position to relative */
+    z-index: 1; /* set the z-index to 1 */
+  }
+  
+  .about-content img {
+    width: 55%;
+  }
+  
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+  
+        /* Contact Section Styles */
+        .contact-section h2 {
+            text-align: center;
+          }
+          
+        .contact-section {
+            background-color: #e29507;
+          }
+          
+        .contact-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          
+          .contact-section label {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 1rem;
+          }
+          
+          .contact-section input,
+          .contact-section textarea {
+            border: none;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-top: 0.5rem;
+            width: 25%;
+            font-size: 1rem;
+          }
+          
+          .contact-section input:focus,
+          .contact-section textarea:focus {
+            outline: none;
+            box-shadow: 0px 0px 5px #ccc;
+          }
+          
+          .contact-section button {
+            background-color: #f04e23;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 0.5rem;
+            padding: 1rem 2rem;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+          }
+          
+          .contact-section button:hover {
+            background-color: #d33a0d;
+            cursor: pointer;
+          }
+          
+        /* Footer Styles */
+        
+        footer {
+        background-color: #ff6f00;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        }
+        
+        footer p {
+        font-size: 1.2rem;
+        margin: 0;
+        }
